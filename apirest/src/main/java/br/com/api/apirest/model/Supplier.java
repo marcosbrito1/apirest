@@ -1,4 +1,4 @@
-package br.com.cayena.apirest.model;
+package br.com.api.apirest.model;
 
 import static javax.persistence.GenerationType.IDENTITY;
 

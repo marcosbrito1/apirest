@@ -1,4 +1,4 @@
-package br.com.cayena.apirest.validation;
+package br.com.api.apirest.validation;
 
 import java.util.HashMap;
 import java.util.Map;

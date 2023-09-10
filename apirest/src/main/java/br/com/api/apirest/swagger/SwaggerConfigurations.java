@@ -1,4 +1,4 @@
-package br.com.cayena.apirest.swagger;
+package br.com.api.apirest.swagger;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

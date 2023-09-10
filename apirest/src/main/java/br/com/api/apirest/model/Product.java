@@ -1,12 +1,10 @@
-package br.com.cayena.apirest.model;
+package br.com.api.apirest.model;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
 
 import static javax.persistence.GenerationType.IDENTITY;
 
@@ -21,19 +19,15 @@ public class Product {
 	@GeneratedValue(strategy = IDENTITY)
     private Long id;
 		
-    @NotBlank(message = "informe o nome")
     @Column(nullable = false)
 	private String name;
 	
-    @NotNull(message = "Informe o estoque")
 	@Column(nullable = false)
 	private Integer quantStock;
 	
-    @NotNull(message = "Informe a unidade de preço")
 	@Column(nullable = false)
 	private BigDecimal unitPrice;
 	
-    @NotNull(message = "Informe a Supplier")
 	@ManyToOne
 	@JoinColumn(name = "supplier_id", nullable = false)
 	private Supplier supplier_id;

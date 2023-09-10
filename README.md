@@ -1,4 +1,4 @@
-# Projeto Apirest
+﻿# Projeto Apirest
 
 
 ## Criação de executável e utilização da API
@@ -45,7 +45,7 @@
 
 ## Documentação da API:
 
-- Além das funções pedidas, eu também realizei a documentação da API, para acessá-la é necessário que a API esteje em execução e ir em um navegador e digitar: http://localhost:8080/swagger-ui.html
+- Além das funções mencionadas, eu também realizei a documentação da API, para acessá-la é necessário que a API esteje em execução e ir em um navegador e digitar: http://localhost:8080/swagger-ui.html
 
 
 

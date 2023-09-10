@@ -1,12 +1,12 @@
-package br.com.cayena.apirest.service;
+package br.com.api.apirest.service;
 
 import java.util.Date;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import br.com.cayena.apirest.model.Product;
-import br.com.cayena.apirest.repository.ProductRepository;
+import br.com.api.apirest.model.Product;
+import br.com.api.apirest.repository.ProductRepository;
 
 
 @Service

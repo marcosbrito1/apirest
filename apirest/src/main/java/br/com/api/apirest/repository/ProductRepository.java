@@ -1,8 +1,8 @@
-package br.com.cayena.apirest.repository;
+package br.com.api.apirest.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import br.com.cayena.apirest.model.Product;
+import br.com.api.apirest.model.Product;
 
 public interface ProductRepository extends JpaRepository<Product, Long>{
 

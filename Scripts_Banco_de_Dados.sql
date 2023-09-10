@@ -1,4 +1,4 @@
--- Criação das tabelas:
+﻿-- Criação das tabelas:
 
 CREATE TABLE IF NOT EXISTS supplier(
 id int auto_increment not null,
@@ -23,6 +23,6 @@ foreign key(supplier_id) references product(id)
 
 -- Inserção de dados na tabela supplier:
 
-INSERT INTO supplier(date_creation, date_update, name) VALUES(now(), now(), "Cayena Tech");
-INSERT INTO supplier(date_creation, date_update, name) VALUES(now(),now(), "Cayena Gerencial");
-INSERT INTO supplier(date_creation, date_update, name) VALUES(now(), now(), "Cayena");
+INSERT INTO supplier(date_creation, date_update, name) VALUES(now(), now(), "Tech");
+INSERT INTO supplier(date_creation, date_update, name) VALUES(now(),now(), "Gerencial");
+INSERT INTO supplier(date_creation, date_update, name) VALUES(now(), now(), "Principal");
